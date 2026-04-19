@@ -1,25 +1,17 @@
 {
-  "name": "audiance_managment_system",
+  "name": "streaming_business_flows_system",
   "version": "1.0.0",
-  "description": "\"This is project to demonstrate the audiance managment system\"",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ashish Kumar",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "docker": "^1.0.0",
     "express": "^5.2.1",
     "kafkajs": "^2.2.4",
-    "node-cron": "^4.2.1",
-    "pg": "^8.20.0",
-    "redis": "^5.12.1",
-    "uuid": "^13.0.0"
-  },
-  "directories": {
-    "doc": "docs"
-  },
-  "keywords": []
+    "redis": "^5.12.1"
+  }
 }
